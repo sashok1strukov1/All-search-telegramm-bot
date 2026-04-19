@@ -1,5 +1,5 @@
 import  telebot
-lanabot = telebot.TeleBot("8616172965:AAH1drZp3_0jKL4f3zrVVjWbsoDyKMXjiPM")
+lanabot = telebot.TeleBot("Ваш токен")
 @lanabot.message_handler(commands=["start"])
 def start_bot(msg):
     kd = telebot.types.InlineKeyboardMarkup()
